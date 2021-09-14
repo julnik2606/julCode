@@ -1,0 +1,29 @@
+{
+    "name": "codeceptjs-tests",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "codeceptjs": "codeceptjs run --steps",
+        "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+        "codeceptjs:ui": "codecept-ui --app",
+        "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+        "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples"
+    },
+    "devDependencies": {
+        "@codeceptjs/configure": "^0.6.2",
+        "@codeceptjs/examples": "^1.2.1",
+        "@codeceptjs/ui": "^0.4.3",
+        "codeceptjs": "^3.0.7",
+        "playwright": "^1.11.0",
+        "testcafe-browser-provider-browserstack": "^1.13.2-alpha.1"
+    },
+    "dependencies": {
+        "codeceptjs-chai": "^2.3.1",
+        "codeceptjs-resemblehelper": "^1.9.4",
+        "faker": "^5.5.1",
+        "mochawesome": "^6.2.2",
+        "qrcode-terminal": "^0.12.0",
+        "testcafe": "^1.14.0"
+    }
+}

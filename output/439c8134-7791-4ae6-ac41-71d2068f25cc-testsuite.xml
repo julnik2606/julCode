@@ -1,0 +1,178 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631581602008' stop='1631581645893'>
+    <name>Верхнеуровневая проверка:</name>
+    <title>Верхнеуровневая проверка:</title>
+    <test-cases>
+        <test-case start='1631581602009' status='failed' stop='1631581629418'>
+            <name>Выбор адреса ПВЗ</name>
+            <title>Выбор адреса ПВЗ</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631581609605' status='passed' stop='1631581610088'>
+                    <name>I am on page "https://test6.emex.ru/"</name>
+                    <title>I am on page "https://test6.emex.ru/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581610089' status='passed' stop='1631581611100'>
+                    <name>I see element "[data-testid="Header:link:mainLogo"]"</name>
+                    <title>I see element "[data-testid="Header:link:mainLogo"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581611101' status='passed' stop='1631581611155'>
+                    <name>I set cookie {"name":"visitor-id","value":"c0b34fdc-7b20-4505-9e5d-8699433967f7"}</name>
+                    <title>I set cookie {"name":"visitor-id","value":"c0b34fdc-7b20-4505-9e5d-8699433967f7"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581611157' status='passed' stop='1631581611966'>
+                    <name>I click "[data-testid="MainPage:field:searchInput"] button"</name>
+                    <title>I click "[data-testid="MainPage:field:searchInput"] button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581611966' status='passed' stop='1631581612900'>
+                    <name>I click "[data-testid="Offers:button:addProductToBasketFromTableoriginalsFord1744977[0]"]"</name>
+                    <title>I click "[data-testid="Offers:button:addProductToBasketFromTableoriginalsFord1744977[0]"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581612901' status='passed' stop='1631581613273'>
+                    <name>I click "[data-testid="MiniBasket:button:makeOrder"]"</name>
+                    <title>I click "[data-testid="MiniBasket:button:makeOrder"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581613276' status='passed' stop='1631581615150'>
+                    <name>I click "Выбрать пункт выдачи"</name>
+                    <title>I click "Выбрать пункт выдачи"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581615151' status='passed' stop='1631581615968'>
+                    <name>I click "Уменьшить масштаб"</name>
+                    <title>I click "Уменьшить масштаб"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581615969' status='failed' stop='1631581629418'>
+                    <name>I see "Эмекс на 50 лет Октября"</name>
+                    <title>I see "Эмекс на 50 лет Октября"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='3b488b0e-e6b4-4e32-9aaa-8dbe1edf5192-attachment.png' type='image/png' size='239245'/>
+            </attachments>
+            <failure>
+                <message>AssertionError: No element with text "Эмекс на 50 лет Октября" found: expected 0 to be above 0</message>
+                <stack-trace>Error: AssertionError: No element with text "Эмекс на 50 лет Октября" found: expected 0 to be above 0
+                    at mapError (C:\pr\codeceptjs\node_modules\codeceptjs\lib\helper\testcafe\testcafe-utils.js:29:11)
+                    at invokeCallback (C:\pr\codeceptjs\node_modules\pinkie\index.js:60:12)
+                    at Array.forEach (&lt;anonymous>)
+                    at publish (C:\pr\codeceptjs\node_modules\pinkie\index.js:147:32)
+                    at Array.publishRejection (C:\pr\codeceptjs\node_modules\pinkie\index.js:157:2)
+                    at Immediate.asyncFlush (C:\pr\codeceptjs\node_modules\pinkie\index.js:17:19)
+                    at processImmediate (internal/timers.js:458:21)
+                    at process.topLevelDomainCallback (domain.js:137:15)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1631581631232' status='passed' stop='1631581640083'>
+            <name>Переход на страницу корзины</name>
+            <title>Переход на страницу корзины</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631581636780' status='passed' stop='1631581637233'>
+                    <name>I am on page "https://test6.emex.ru/"</name>
+                    <title>I am on page "https://test6.emex.ru/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581637234' status='passed' stop='1631581637705'>
+                    <name>I see element "[data-testid="Header:link:mainLogo"]"</name>
+                    <title>I see element "[data-testid="Header:link:mainLogo"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581637707' status='passed' stop='1631581637825'>
+                    <name>I see visual diff for element "[data-testid="Header:link:mainLogo"]", "logo.png"</name>
+                    <title>I see visual diff for element "[data-testid="Header:link:mainLogo"]", "logo.png"</title>
+                    <attachments>
+                        <attachment title='Base Image' source='f4fe3837-9540-461a-b90c-a0f869d7daaf-attachment.png' type='image/png' size='2100'/>
+                        <attachment title='Screenshot Image' source='f7868f9c-eea3-4db4-9ffb-047d12503673-attachment.png' type='image/png' size='2100'/>
+                        <attachment title='Diff Image' source='20b2c8d4-7f05-4592-b6d1-ff4df1218d9c-attachment.png' type='image/png' size='2116'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631581637826' status='passed' stop='1631581637904'>
+                    <name>I set cookie {"name":"visitor-id","value":"c0b34fdc-7b20-4505-9e5d-8699433967f7"}</name>
+                    <title>I set cookie {"name":"visitor-id","value":"c0b34fdc-7b20-4505-9e5d-8699433967f7"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581637905' status='passed' stop='1631581638710'>
+                    <name>I click "[data-testid="MainPage:field:searchInput"] button"</name>
+                    <title>I click "[data-testid="MainPage:field:searchInput"] button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581638711' status='passed' stop='1631581639499'>
+                    <name>I click "[data-testid="Offers:button:addProductToBasketFromTableoriginalsFord1744977[0]"]"</name>
+                    <title>I click "[data-testid="Offers:button:addProductToBasketFromTableoriginalsFord1744977[0]"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581639500' status='passed' stop='1631581639815'>
+                    <name>I click "[data-testid="MiniBasket:button:makeOrder"]"</name>
+                    <title>I click "[data-testid="MiniBasket:button:makeOrder"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581639816' status='passed' stop='1631581640082'>
+                    <name>I see element "[data-testid="Basket:block:fullTable"]"</name>
+                    <title>I see element "[data-testid="Basket:block:fullTable"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1631581640090' status='passed' stop='1631581645887'>
+            <name>Проверка запросов</name>
+            <title>Проверка запросов</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631581645630' status='passed' stop='1631581645746'>
+                    <name>I send get request "/api/users/2"</name>
+                    <title>I send get request "/api/users/2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581645748' status='passed' stop='1631581645749'>
+                    <name>I assert equal "janet.weaver@reqres.in", "janet.weaver@reqres.in"</name>
+                    <title>I assert equal "janet.weaver@reqres.in", "janet.weaver@reqres.in"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581645750' status='passed' stop='1631581645883'>
+                    <name>I send post request "https://test6.emex.ru/api/account/login", {"login":"598008","password":"qwe123!@#"}</name>
+                    <title>I send post request "https://test6.emex.ru/api/account/login", {"login":"598008","password":"qwe123!@#"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631581645885' status='passed' stop='1631581645886'>
+                    <name>I assert equal 200, 200</name>
+                    <title>I assert equal 200, 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
